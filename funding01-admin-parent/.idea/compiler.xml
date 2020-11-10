@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="funding02-admin-webui" />
+        <module name="funding03-admin-component" />
+        <module name="funding04-admin-entity" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="funding01-admin-parent" target="1.5" />
+      <module name="funding02-admin-webui" target="1.5" />
+      <module name="funding03-admin-component" target="1.5" />
+      <module name="funding04-admin-entity" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

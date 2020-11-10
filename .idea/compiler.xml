@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="funding02-admin-webui" />
+        <module name="funding03-admin-component" />
+        <module name="funding04-admin-entity" />
+        <module name="funding05-common-util" />
+        <module name="funding06-common-reverse" />
+        <module name="funding08-member-eureka" />
+        <module name="funding09-member-entity" />
+        <module name="funding10-member-mysql-provider" />
+        <module name="funding11-member-redis-provider" />
+        <module name="funding12-member-authentication-consumer" />
+        <module name="funding13-member-project-consumer" />
+        <module name="funding14-member-order-consumer" />
+        <module name="funding15-member-pay-consumer" />
+        <module name="funding16-member-zuul" />
+        <module name="funding17-member-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="funding01-admin-parent" target="1.5" />
+      <module name="funding02-admin-webui" target="1.5" />
+      <module name="funding03-admin-component" target="7" />
+      <module name="funding04-admin-entity" target="1.5" />
+      <module name="funding05-common-util" target="7" />
+      <module name="funding06-common-reverse" target="1.5" />
+      <module name="funding07-member-parent" target="1.8" />
+      <module name="funding08-member-eureka" target="1.5" />
+      <module name="funding09-member-entity" target="1.5" />
+      <module name="funding10-member-mysql-provider" target="1.5" />
+      <module name="funding11-member-redis-provider" target="1.8" />
+      <module name="funding12-member-authentication-consumer" target="1.8" />
+      <module name="funding13-member-project-consumer" target="1.8" />
+      <module name="funding14-member-order-consumer" target="1.8" />
+      <module name="funding15-member-pay-consumer" target="1.8" />
+      <module name="funding16-member-zuul" target="1.8" />
+      <module name="funding17-member-api" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

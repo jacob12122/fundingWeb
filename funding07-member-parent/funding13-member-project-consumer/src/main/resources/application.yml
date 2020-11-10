@@ -1,0 +1,23 @@
+aliyun:
+  oss:
+    endPoint: http://oss-cn-hangzhou.aliyuncs.com
+    bucketName: atguigu12580
+    accessKeyId: LTAI4G2f8uxoqxakeFGFpdFG
+    accessKeySecret: e5l59M13fjWPH9jsi1G6ExQvdbBP7y
+    bucketDomain: http://atguigu12580.oss-cn-hangzhou.aliyuncs.com
+server:
+  port: 5000
+spring:
+  application:
+    name: shanghai-shu-edu-project
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+  redis:
+    host: 101.132.191.206
+  session:
+    store-type: redis
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka

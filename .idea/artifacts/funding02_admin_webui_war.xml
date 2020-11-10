@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="funding02-admin-webui:war">
+    <output-path>$PROJECT_DIR$/funding01-admin-parent/funding02-admin-webui/target</output-path>
+    <root id="archive" name="funding02-admin-webui-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="funding02-admin-webui:war exploded" />
+    </root>
+  </artifact>
+</component>

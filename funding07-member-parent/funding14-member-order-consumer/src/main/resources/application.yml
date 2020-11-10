@@ -1,0 +1,16 @@
+server:
+  port: 7000
+spring:
+  application:
+    name: shanghai-shu-edu-order
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+  redis:
+    host: 101.132.191.206
+  session:
+    store-type: redis
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka/

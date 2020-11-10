@@ -1,0 +1,11 @@
+server:
+  port: 3000
+spring:
+  application:
+    name: shanghai-shu-edu-redis
+  redis:
+    host: 101.132.191.206
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka

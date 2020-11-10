@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/funding01-admin-parent.iml" filepath="$PROJECT_DIR$/funding01-admin-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/funding02-admin-webui/funding02-admin-webui.iml" filepath="$PROJECT_DIR$/funding02-admin-webui/funding02-admin-webui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/funding03-admin-component/funding03-admin-component.iml" filepath="$PROJECT_DIR$/funding03-admin-component/funding03-admin-component.iml" />
+      <module fileurl="file://$PROJECT_DIR$/funding04-admin-entity/funding04-admin-entity.iml" filepath="$PROJECT_DIR$/funding04-admin-entity/funding04-admin-entity.iml" />
+    </modules>
+  </component>
+</project>

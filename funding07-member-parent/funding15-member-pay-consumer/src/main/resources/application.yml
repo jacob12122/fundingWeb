@@ -1,0 +1,28 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: shanghai-shu-edu-pay
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+  redis:
+    host: 101.132.191.206
+  session:
+    store-type: redis
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka
+
+ali:
+  pay:
+    alipay-public-key: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnF4VF0jsudFhfKWrPJ2GL6zDae2nWhIH0mmLQtwXP3FBb0KReeNRUxERyF1zZHFVxHi98xQCzUKlTCWyE+F9AYdqHHBDf2QDszrRoFKRb3iaPF+iRB542qT692OSkJBfoRHp2vzqnsc+cEAQKC4h3e/d+Vc2qzZCA698l3dusbjnQEV+wu4NI/HMw6ANp6Md8QU1UpgT7QDAq21zQnjTRe1TJABcTiGMGnShWJE0cgexTyYVbhEdxti6p/OWSlSLMZMGbgG9ln7uZFi+QVeEP2XE06OFaHeqO8aAwBcNO6C6TavsV/7U8L3Qh1yYg5PWO0PrdIo6dRWSYCLKbheZVwIDAQAB
+    app-id: 2016102300746247
+    charset: utf-8
+    gateway-url: https://openapi.alipaydev.com/gateway.do
+    merchant-private-key: MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCDinMMCOKwUetIBCDJ3zO5yrLeKq8ScE3iK6mEOzJ6Et8r95MreChIn1vU3cL8TvjqNigVGgKb9zC+sSf1Igj1qMsvT4ZC5D63hxCDc0DbqEcNVJbTAKriDL+4bd8Sc4iGubyB2G19nAj3C7RbC8pW+V79NktlXdLrEmNV+Wq6tPaix2g3kATQz4Z4luT/n/jyeLzinRu1c5MJUGA45Ed5WyD5PZOL2sx7fNV7SkJ2v0SLU3b4/VtHK0KIyQM/dUNgR9PLeD4+kicwV2Gar7tCmDFXVyWmd/lzB7orX8k2fjYjPh1PszLAoXCbfEJHSG+KAZSUg+tm+31RafqydSonAgMBAAECggEAIThK28Q2s77Mg7B/M1xKLOazC4aOFkMEeFT8h6eHlOrFL85jfXvn+Ic+YuDqiFvNYyDwOHwMIqVnyxDkfXTt/FR3k+gqiSQpbqIOmpP10kOKRiSRvpIRlesQVBxzVK6W0SeBIu2soSdR4Eo1bzToEdUCl0IqAlySkslfCuxlducyEXjcWZ2MoUP2qI9vdBMorTC2dCEjI9J9BjRvgZ4zMOEVcpgvzF53A3oSLhIIawbnrQPjttv26dKjPfFzbUsU+JqPEArzQTlu7QfQGPVvV3DinsZNa+dEKShFJDGMGCg6mduaGRcm9ElW1iuf9ow6Gj5zcihXxJC4DzrMI6IqWQKBgQD2W+KNbaC2aBxHWuWg2Q1ODK23dZJuX/hUVK0zKBjlob8RY8MYKWaJ3HJaMcyQeDmfBCJbdxrmTIgAZ8LXlkue9TxwNwFHmBpYYtRfmwBkHIcmUuiRDSCi25UYX+FFsme+4iwUzsh4UsYYwt2VKZmlL8nWXZIDLKi+gHmoGScfhQKBgQCIsEYplmok5cKLgEejtyrqniB34wCCyKwnseh1b7zQnjyrMLrV5BEAGNxFPfL2DLNbcNUwcEWy7dZ0R9YfjccQlg0MlRFWo01RE7jY/5V5cRRmBFchAiMijYrBpoQ/ZwEQEfggSBn687zS/UE8Zxpy1LXmRACt+q7b9RqG/tvUuwKBgEDb9AtT/2nGgxtuHOJ6Any37cxNEd4pOhHJsUe0mMlsCgekAisMS0ikVx7T2Y13eYQZ7Im0E8rp/yxMJQnpMcOJwP2yHY4hx13ZtxvsjO/Oau52CXCWyi7WLKycIYzd6V5h4UUhI7o54JmIRBoPN7o7mKHtRJG9Yje1T1IoPRqZAoGAL7J7OUXgkjGOuokv9oQTOL2nDM6svfZyhIODX393PsEI4J/ngn3MJOGH862TW6LA75am/fkfiTmPTRJIOMiLf1EtCof1/eqML0+XgDlnmnIIMTUwhjcttX/4vGxz14AFEeuDTxh54GUvLdzr57z+sLVjKA/wwMUqQVz9PcAvS8MCgYAaS3oGzR2Cw5/1ucJ6tgwYGOT6DIiYBC+IRtKoJdPPvZUU2FWXjjwRxuGm/JN1rVkhiGX4v23LRgtt7yq9iuJYs9VgE1UZSITL1X0zyJOHxHPTKnSUFju8jNrE9n6vbatpN0zhjaholNDU3nbbHAxMs3GlkFRoQj0mAjH/0PuG9A==
+    notify-url: http://tv74gm.natappfree.cc/pay/notify
+    return-url: http://localhost/pay/return
+    sign-type: RSA2

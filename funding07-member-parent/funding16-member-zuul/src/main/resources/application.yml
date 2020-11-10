@@ -1,0 +1,35 @@
+server:
+  port: 80
+spring:
+  application:
+    name: shanghai-shu-edu-zuul
+  redis:
+    host: 101.132.191.206
+  session:
+    store-type: redis
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka
+zuul:
+  host:
+    connect-timeout-millis: 15000
+    socket-timeout-millis: 60000
+  ignored-services: "*"
+  sensitive-headers: "*"
+  routes:
+    crowd-portal:
+      service-id: shanghai-shu-edu-auth
+      path: /**
+    crowd-project:
+      service-id: shanghai-shu-edu-project
+      path: /project/**
+    crowd-order:
+      service-id: shanghai-shu-edu-order
+      path: /order/**
+    crowd-pay:
+      service-id: shanghai-shu-edu-pay
+      path: /pay/**
+ribbon:
+  ReadTimeout: 10000
+  ConnectTimeout: 10000
